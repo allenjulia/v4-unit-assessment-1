@@ -1,0 +1,61 @@
+.box{
+  width: 98vw;
+  height: 46vh;
+  border: dotted black 5px;
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+}
+.small-box{
+  width: 99vw;
+  height: 16vh;
+  border: solid 1px;
+  background-color: salmon;
+}
+.med-box{
+  height: 34vh;
+
+}
+
+.dot-box{
+  margin-top: 10px;
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+.head-words{
+  display: inline-block
+}
+a{
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: larger;
+}
+h2{
+  font-size: larger;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 20px;
+}
+img{
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.html-pic{
+  float: left;
+  margin-bottom: 10px;
+}
+.css-pic{
+  float: right;
+}
+p{
+  font-size: medium;
+  padding: 8px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+}
