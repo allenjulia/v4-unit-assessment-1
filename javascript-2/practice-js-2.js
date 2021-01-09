@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition= 'Git is a way for programmers to track changes in their coding and collaborate with eachother. It is also useful for preventing lose of code in the event of a disaster'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition= 'GitHub is "the Cloud". A place to store code off of your own computer. It works as a back up and as a way to collaborate with other people'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,11 @@
 */
 
 //CODE HERE
+const init={
+description: 'this code turns a directory into a repository',
+code: 'git init'
+}
+
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +49,10 @@
 */
 
 //CODE HERE
+const clone={
+    description: 'this code creates an identical repository from a filepath (frequently a github url)',
+    code: 'git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +61,10 @@
 */
 
 //CODE HERE
+const status={
+    description: 'this code is a way to check on files that you are currently working on, with regard to their status as staged, committed, and pushed',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +73,10 @@
 */
 
 //CODE HERE
+const add={
+    description: 'this code stages the recently changed files you are currently working on',
+    code: 'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +85,10 @@
 */
 
 //CODE HERE
+const commit={
+description: 'this prepares to commit your files to gitHub, the "set" of "ready, set, go". It also submits a message to mark the version',
+code: 'git commit -m "message"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +97,10 @@
 */
 
 //CODE HERE
+const addRemote={
+    description: 'A way to add a new storage location for a repository, off of the original computer. Typically a server or somewhere on the internet. GitHub is a common one',
+    code: 'git remote add origin "url.com" '
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +109,7 @@
 */
 
 //CODE HERE
+const push={
+    description: 'this is the final button which sends the latest version of your code to the remote location, probably GitHub',
+    code: 'git push'
+}
