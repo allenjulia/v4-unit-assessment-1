@@ -137,7 +137,19 @@ const me={
 
 // CODE HERE
 function bigOrSmall(arr){
-  let answers=[]
+  let answers=[];
+  for(let i=0; i < arr.length; i++)
+  {
+    if(arr[i]>100){
+      answers.push('big');
+    }
+    else if (arr[i]<= 100)
+    {
+     answers.push('small');
+    }
+  }
+      return answers
+  
 }
 
 //////////////////PROBLEM 13////////////////////
@@ -152,9 +164,9 @@ function bigOrSmall(arr){
 
 //CODE HERE
 function arrayReverser(arr){
-  let reversed=[null]
+  let reversed=[]
   for(let i= arr.length-1; i >= 0; i--) {
-    reversed.push([i], i)
+    reversed.push(arr[i])
   }
   return reversed
 }
@@ -233,7 +245,7 @@ function isItBob(obj, cb){
 //CODE HERE
 function giveMeDoubles(numArr, cb){
   for(let i=0; i<numArr.length; i++){
-    numArr = numArr[i]*i
+    numArr.splice(i, 1, numArr[i]*2)
   }
   cb(numArr)
 }
@@ -268,7 +280,7 @@ function carFactory(make, model, year){
   let car={
     make: `${make}`,
     model: `${model}`,
-    year: `${year}`
+    year: year
   }
   if(year > 2018){
     car.isNew=true

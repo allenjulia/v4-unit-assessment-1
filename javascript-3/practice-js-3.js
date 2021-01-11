@@ -71,6 +71,9 @@ function checkGroceryCount(){
         if(groceries.length === 1){
             return '1 item'
         }
+        else(groceries.length[1<5]);{
+            return `${groceries.length} items`
+        }
     }
 }
 //////////////////Check out your code!////////////////////
