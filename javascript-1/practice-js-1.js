@@ -76,7 +76,7 @@ function iLove(name, love){
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-let colorCopy =faveColors.slice(0)
+let colorCopy = faveColors.slice(0)
 
 
 //////////////////PROBLEM 9////////////////////

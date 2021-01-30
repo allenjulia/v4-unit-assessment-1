@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-const gitDefinition= 'Git is a way for programmers to track changes in their coding and collaborate with eachother. It is also useful for preventing lose of code in the event of a disaster'
+const gitDefinition= 'Git is a way for programmers to track changes in their coding and collaborate with each other. It is also useful for preventing lose of code in the event of a disaster'
 
 //////////////////PROBLEM 2////////////////////
 /*

@@ -35,8 +35,8 @@ function setGroceryListTitle(x){
 //CODE HERE
 function addItem(item){
     groceries.push(item)
+    displayData()
 }
-displayData()
 
 //////////////////STEP 5////////////////////
 /*
@@ -49,8 +49,8 @@ displayData()
 //CODE HERE
 function removeItem(index){
     groceries.splice(index, 1)
+    displayData()
 }
-displayData()
 //////////////////STEP 6////////////////////
 /*
     Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
